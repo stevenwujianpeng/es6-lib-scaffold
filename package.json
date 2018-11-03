@@ -1,0 +1,22 @@
+{
+  "name": "es6-lib-scaffold",
+  "version": "1.0.0",
+  "description": "快速用ES6开发三方库的脚手架",
+  "main": "index.js",
+  "bin": {
+    "es6-lib-scaffold": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6",
+    "lib"
+  ],
+  "author": "wujianpeng",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "nodegit": "^0.23.0"
+  }
+}
