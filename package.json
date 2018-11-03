@@ -1,6 +1,6 @@
 {
   "name": "es6-lib-scaffold",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "快速用ES6开发三方库的脚手架",
   "main": "index.js",
   "bin": {
