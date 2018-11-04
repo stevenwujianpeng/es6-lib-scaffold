@@ -3,6 +3,7 @@
 
 ## 特性
 - ES6 编写源代码和测试代码
+- 基于Babel 7 语法
 - rollup打包，可输出多种模块规范的代码库：es commonjs umd iife
 - Mocha 作为单元测试库，可生成覆盖率报告
 
