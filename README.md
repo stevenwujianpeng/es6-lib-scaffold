@@ -1,7 +1,7 @@
 用ES6语法开发一套完整的三方库（library or tool）
 > Note: 用执行单测或者node运行来验证代码模块，暂不提供在浏览器中验证代码的功能
 
-> 库的默认导出的模块设置：main: commonjs模块语法 module: es模块语法
+> 库的默认导出的模块设置：main: commonjs模块语法(lib.cjs.js) module: es模块语法(lib.es.js)
 
 ## 特性
 - ES6 编写源代码和测试代码
@@ -28,24 +28,6 @@ npm i
 
 ```
 plugins.push(["@babel/plugin-transform-runtime", { "corejs": 2 }]);
-```
-
-## 需要自己定义package.json
-
-```
-{
- "name": {修改成自己的库名},   
- "version": "1.0.0",
- "description": {修改成你对库的描述},
- "main": 输出模块名,
- "module": 输出模块名,
- "keywords": 库的关键字,
- "author": 作者,
- "license": 库的证书类型，必填
- "bugs": 库的bug提交,
- "files": 包的对外可见的文件
- "homepage": 库的主页
-}
 ```
 
 ## 项目的基本架构

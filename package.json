@@ -19,6 +19,7 @@
     "commander": "^2.19.0",
     "fs-extra": "^7.0.0",
     "inquirer": "^6.2.0",
+    "jsonfile": "^5.0.0",
     "nodegit": "^0.23.0"
   }
 }
